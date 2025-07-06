@@ -1,0 +1,92 @@
+# Dataset files (large compressed files)
+*.tar.gz
+*.zip
+*.rar
+liputan6_data.tar.gz
+
+# Extracted dataset folders
+dataset/
+data/
+*/dataset/
+*/data/
+
+# Model files (can be very large)
+results/
+checkpoints/
+indo_summary_model/
+*.bin
+*.safetensors
+pytorch_model.bin
+model.safetensors
+
+# Training logs and outputs
+logs/
+*.log
+wandb/
+tensorboard/
+runs/
+
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyTorch
+*.pth
+*.pt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large model cache files
+.cache/
+.huggingface/
+transformers_cache/
